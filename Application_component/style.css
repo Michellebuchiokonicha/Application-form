@@ -1,0 +1,32 @@
+.logo{
+    width: 100px;
+    height: 30px;
+}
+.arrow{
+    width: 10px;
+    height: 10px;
+    padding-left: 5px;
+}
+header{
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+   justify-content: center;
+   gap: 1100px;
+   border-bottom: 4px solid rgb(246, 244, 244);
+}
+.logoImg{
+    /* flex: 1; */
+}
+.welcome{
+    border-left: 2px solid rgb(246, 244, 244);
+    border-right: 2px solid rgb(246, 244, 244);
+    border-top: 2px solid rgb(246, 244, 244);
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    gap: 250px;
+}

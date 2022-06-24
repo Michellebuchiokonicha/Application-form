@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <header>
+            <div class="logoImg"><img src="THI_logo.png" class="logo"></div>
+            <div class="welcome milk" >Welcome Mimi<img src="down arrow.png" class="arrow"></div>
+        </header>
+
+        <div class="container">
+            <aside>
+                <div>Dashboard</div>
+                
+                <div onclick={format()}>All Application Form(s)</div>
+                </a>
+                <div>My Profile</div>
+                <div>My Queries</div>
+                <div>Logout</div>
+            </aside>
+            <div>
+                <div>Content</div>
+                <div>Mimi</div>
+                <div>Nana</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const form = document.querySelectorAll('milk')
+        function format() {
+            return form
+        }
+    </script>
+</body>
+</html>
